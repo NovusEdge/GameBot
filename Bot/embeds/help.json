@@ -1,0 +1,35 @@
+{
+  "content": "`GameBot's Help Menu`",
+  "embed": {
+    "title": "Commands:",
+    "color": 51711,
+    "footer": {
+      "text": "by GameBot"
+    },
+    "thumbnail": {
+      "url": "https://raw.githubusercontent.com/NovusEdge/PyBot/master/logo(pexels-pixabay-247676).ico"
+    },
+    "author": {
+      "name": "GameBot",
+      "icon_url": "https://raw.githubusercontent.com/NovusEdge/PyBot/master/logo(pexels-pixabay-247676).ico"
+    },
+    "fields": [
+      {
+        "name": "`[prefix].help / h / HELP / Help`",
+        "value": "```txt\nDisplays this menu 😛\n```"
+      },
+      {
+          "name": "`pb.languages/langs/lang`",
+          "value": "```Displays the languages that can be run by the bot.```"
+      },
+      {
+        "name": "`pb.cats/cat/CATS`",
+        "value": "```Displays a cute picture/gif of a cat.\nPS: Sorry dog people.```"
+      },
+      {
+        "name": "`pb.quote`",
+        "value": "```Displays a random quote.```"
+      }
+    ]
+  }
+}
