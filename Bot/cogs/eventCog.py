@@ -1,7 +1,7 @@
 import discord, requests, json, asyncio
 from discord.ext import commands
-import commands as comm
-import cogs as cgs
+from commands import help, invite
+
 
 class Events(commands.Cog):
     def __init__(self, bot):
@@ -15,8 +15,8 @@ class Events(commands.Cog):
 
     @commands.command(aliases=["h", "HELP", "Help"])
     async def help(self, ctx):
-        await comm.help.help(ctx)
+        await help.help(ctx)
 
     @commands.command(aliases=["INVITE", "Invite"])
     async def invite(self, ctx):
-        await comm.invite.invite(ctx)
+        await invite.invite(ctx)

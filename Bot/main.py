@@ -10,4 +10,5 @@ if __name__ == "__main__":
         TOKEN = base64.b64decode(bytes(f.read().strip(), "utf-8")).decode('utf-8')
 
     b = bot.Bot(token=TOKEN, command_prefix="gb.")
+    b.setup()
     b.run()
