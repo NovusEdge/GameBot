@@ -15,8 +15,12 @@
     },
     "fields": [
       {
-        "name": "`[prefix].help / h / HELP / Help`",
+        "name": "`[prefix]help / h / HELP / Help`",
         "value": "```txt\nDisplays this menu 😛\n```"
+      },
+      {
+          "name": "`[prefix]invite / INVITE / Invite`",
+          "value": "```txt\nDisplays an invite link for the bot\n```"
       }
     ]
   }

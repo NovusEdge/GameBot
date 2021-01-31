@@ -1,0 +1,21 @@
+{
+  "embed":{
+    "color": 9118641,
+    "footer": {
+      "text": "by GameBot"
+    },
+    "thumbnail": {
+      "url": "https://raw.githubusercontent.com/NovusEdge/GameBot/master/logo/logo.ico"
+    },
+    "author": {
+      "name": "GameBot",
+      "icon_url": "https://raw.githubusercontent.com/NovusEdge/GameBot/master/logo/logo.ico"
+    },
+    "fields": [
+      {
+        "name": "`Invite Link:`",
+        "value": "[Invite GameBot to your server](https://discord.com/api/oauth2/authorize?client_id=803632351707004979&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D803632351707004979%26permissions%3D8%26redirect_uri%3Dhttps%253A%252F%252Fdiscord.com%252Fapi%252Foauth2%252Fauthorize%253Fclient_id%253D803632&scope=bot)"
+      }
+    ]
+  }
+}
